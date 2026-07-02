@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex@ Ecommerce</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#home">
+            <img src="img/shopping.jpg" class="logo" alt="Alex@ Ecommerce">
+            <a href="#home" class="logo-text">Alex@ Ecommerce</a>
+        </a>
+
+        <nav>
+            <ul id="navbar" class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#productos">Tienda</a></li>
+                <li><a href="#historia">Acerca de</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li>
+                    <a href="#" id="cart-icon">
+                        <span id="cart-count">0</span>
+                        <i class="fas fa-shopping-bag"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="mobile">
+            <i id="bar" class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h4>¡Hacé el cambio que necesitás!</h4>
+            <h2>Súper ofertas</h2>
+            <h1>En todos los productos</h1>
+            <p>¡Aprovechá descuentos de hasta el 70%!</p>
+            <button onclick="window.location='#productos'">Comprar</button>
+        </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section id="productos" class="section-productos">
+        <h2>Electrónica, Moda y Más</h2>
+        <p>Ofertas que no te podés perder</p>
+
+        <div class="productos-container">
+
+            <div class="producto">
+                <img src="img/celular.jpg" alt="Celular">
+                <div class="producto-descripcion">
+                    <span>Celulares</span>
+                    <h5>Smartphone último modelo</h5>
+                    <h4>$89.500</h4>
+                </div>
+                <a class="carrito" data-nombre="Smartphone último modelo" data-precio="89500" data-imagen="img/celular.jpg">
+                    <i class="fas fa-shopping-cart"></i> Agregar
+                </a>
+            </div>
+
+            <div class="producto">
+                <img src="img/auriculares.jpg" alt="Auriculares">
+                <div class="producto-descripcion">
+                    <span>Audio</span>
+                    <h5>Auriculares inalámbricos</h5>
+                    <h4>$80.000</h4>
+                </div>
+                <a class="carrito" data-nombre="Auriculares" data-precio="80000" data-imagen="img/auriculares.jpg">
+                    <i class="fas fa-shopping-cart"></i> Agregar
+                </a>
+            </div>
+
+            <div class="producto">
+                <img src="img/wifi.jpg" alt="WiFi">
+                <div class="producto-descripcion">
+                    <span>Electrónica</span>
+                    <h5>Optimizador WiFi</h5>
+                    <h4>$99.000</h4>
+                </div>
+                <a class="carrito" data-nombre="Optimizador WiFi" data-precio="99000" data-imagen="img/wifi.jpg">
+                    <i class="fas fa-shopping-cart"></i> Agregar
+                </a>
+            </div>
+
+            <div class="producto">
+                <img src="img/Camara.jpg" alt="Camara">
+                <div class="producto-descripcion">
+                    <span>Electrónica</span>
+                    <h5>Cámara Foto</h5>
+                    <h4>$180.000</h4>
+                </div>
+                <a class="carrito" data-nombre="Camara" data-precio="180000" data-imagen="img/Camara.jpg">
+                    <i class="fas fa-shopping-cart"></i> Agregar
+                </a>
+            </div>
+
+            <div class="producto">
+                <img src="img/tablet.jpg" alt="Tablet">
+                <div class="producto-descripcion">
+                    <span>Tablets</span>
+                    <h5>Tablet 10 Full HD</h5>
+                    <h4>$349.990</h4>
+                </div>
+                <a class="carrito" data-nombre="Tablet" data-precio="349990" data-imagen="img/tablet.jpg">
+                    <i class="fas fa-shopping-cart"></i> Agregar
+                </a>
+            </div>
+
+            <div class="producto">
+                <img src="img/pantallacurva.jpg" alt="Pantalla">
+                <div class="producto-descripcion">
+                    <span>Pantallas</span>
+                    <h5>Pantalla Curva</h5>
+                    <h4>$999.900</h4>
+                </div>
+                <a class="carrito" data-nombre="Pantalla Curva" data-precio="999900" data-imagen="img/pantallacurva.jpg">
+                    <i class="fas fa-shopping-cart"></i> Agregar
+                </a>
+            </div>
+
+            <div class="producto">
+                <img src="img/proyector.jpg" alt="Proyector">
+                <div class="producto-descripcion">
+                    <span>Video</span>
+                    <h5>Proyector portátil HD</h5>
+                    <h4>$199.990</h4>
+                </div>
+                <a class="carrito" data-nombre="Proyector" data-precio="199990" data-imagen="img/proyector.jpg">
+                    <i class="fas fa-shopping-cart"></i> Agregar
+                </a>
+            </div>
+
+                        <div class="producto">
+                <img src="img/televisor.jpg" alt="Televisor">
+                <div class="producto-descripcion">
+                    <span>Electrónica</span>
+                    <h5>Smart TV 55 4K</h5>
+                    <h4>$799.000</h4>
+                </div>
+                <a class="carrito" data-nombre="Smart TV 55 4K" data-precio="799000" data-imagen="img/televisor.jpg">
+                    <i class="fas fa-shopping-cart"></i> Agregar
+                </a>
+            </div>
+
+            <div class="producto">
+                <img src="img/computadora completa.jpg" alt="Computadora">
+                <div class="producto-descripcion">
+                    <span>Electrónica</span>
+                    <h5>Computadora Completa</h5>
+                    <h4>$990.000</h4>
+                </div>
+                <a class="carrito" data-nombre="Computadora Completa" data-precio="990000" data-imagen="img/computadora completa.jpg">
+                    <i class="fas fa-shopping-cart"></i> Agregar
+                </a>
+            </div>
+
+            <div class="producto">
+                <img src="img/deportivo.jpg" alt="Deportivo">
+                <div class="producto-descripcion">
+                    <span>Ropa</span>
+                    <h5>Deportivo de Dama</h5>
+                    <h4>$90.000</h4>
+                </div>
+                <a class="carrito" data-nombre="Deportivo de Dama" data-precio="90000" data-imagen="img/deportivo.jpg">
+                    <i class="fas fa-shopping-cart"></i> Agregar
+                </a>
+            </div>
+
+            <div class="producto">
+                <img src="img/enterito.jpg" alt="Enterito">
+                <div class="producto-descripcion">
+                    <span>Ropa</span>
+                    <h5>Enterito de Dama</h5>
+                    <h4>$99.000</h4>
+                </div>
+                <a class="carrito" data-nombre="Enterito de Dama" data-precio="99000" data-imagen="img/enterito.jpg">
+                    <i class="fas fa-shopping-cart"></i> Agregar
+                </a>
+            </div>
+
+            <div class="producto">
+                <img src="img/jean.jpg" alt="Jean">
+                <div class="producto-descripcion">
+                    <span>Ropa</span>
+                    <h5>Jean de Dama</h5>
+                    <h4>$69.000</h4>
+                </div>
+                <a class="carrito" data-nombre="Jean de Dama" data-precio="69000" data-imagen="img/jean.jpg">
+                    <i class="fas fa-shopping-cart"></i> Agregar
+                </a>
+            </div>
+
+            <div class="producto">
+                <img src="img/remera.jpg" alt="Remera">
+                <div class="producto-descripcion">
+                    <span>Ropa</span>
+                    <h5>Remera de Dama</h5>
+                    <h4>$19.000</h4>
+                </div>
+                <a class="carrito" data-nombre="Remera de Dama" data-precio="19000" data-imagen="img/remera.jpg">
+                    <i class="fas fa-shopping-cart"></i> Agregar
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="banner">
+        <h4>Ofertas que no te podés perder</h4>
+        <h2>Hasta <span>70% OFF</span></h2>
+    </section>
+
+    <section id="historia" class="section-historia">
+        <h2>Nuestra Historia</h2>
+        <p>
+            Alex@ Ecommerce nació como un emprendimiento familiar con la misión de
+            acercar tecnología, moda y productos de calidad a cada hogar argentino.
+            Crecimos gracias a la confianza de nuestros clientes y al compromiso
+            de ofrecer atención personalizada, precios competitivos y seguridad en cada compra.
+        </p>
+    </section>
+
+    <section class="section-resenias">
+        <h2>Lo que dicen nuestros clientes</h2>
+
+        <div class="resenias-container">
+            <div class="resenia-card">
+                <p>"Excelente calidad y envío rapidísimo."</p>
+                <div class="resenia-autor">
+                    <img src="img/señor.jpg" alt="Julio">
+                    <div>
+                        <h5>Julio L.</h5>
+                        <span>Bariloche</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resenia-card">
+                <p>"Muy buena atención y productos de primera."</p>
+                <div class="resenia-autor">
+                    <img src="img/señora.jpg" alt="Carmen">
+                    <div>
+                        <h5>Carmen A.</h5>
+                        <span>San Fernando</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resenia-card">
+                <p>"Precios increíbles y mucha variedad."</p>
+                <div class="resenia-autor">
+                    <img src="img/sta.jpg" alt="Julieta">
+                    <div>
+                        <h5>Julieta R.</h5>
+                        <span>Santa Fe</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo" required>
+            <textarea placeholder="Mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+   <footer>
+    <h3>Alex@ Ecommerce</h3>
+    <p>Dirección: Carreras 343, Buenos Aires</p>
+    <p>Teléfono: +54 11 5555 3322</p>
+    <p>© 2026 Cristina Pintado</p>
+</footer>
+
+<!-- CARRITO VISUAL -->
+<div id="cart-panel" class="cart-panel">
+    <h3>Mi Carrito</h3>
+
+    <div id="cart-items">
+        <p>Tu carrito está vacío</p>
+    </div>
+
+    <h4>Total: $<span id="cart-total">0</span></h4>
+
+    <div class="payment-methods">
+        <h4>Formas de Pago</h4>
+        <img src="img/pay.jpg" alt="Tarjetas">
+        <img src="img/paypal.jpg" alt="PayPal">
+    </div>
+
+    <button id="btn-pagar">Pagar Ahora</button>
+    <button id="close-cart">Cerrar</button>
+</div>
+
+<div id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

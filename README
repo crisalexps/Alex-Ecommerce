@@ -1,0 +1,180 @@
+Alex@ Ecommerce es una plataforma de comercio electrónico diseñada para la venta de:
+
+- Electrónica
+- Moda
+- Accesorios
+- Tecnología para el hogar
+
+El sitio fue desarrollado con una interfaz moderna, intuitiva y adaptable a distintos dispositivos.
+
+---
+
+##  Funcionalidades principales
+
+###  Página de inicio
+- Header con navegación:
+  - Home
+  - Tienda
+  - Acerca de
+  - Contacto
+- Hero section con banner promocional
+- Imagen de portada personalizada
+
+###  Catálogo de productos
+Productos organizados en cards con:
+- Imagen
+- Categoría
+- Nombre
+- Precio
+- Botón **Agregar al carrito**
+
+Incluye productos como:
+
+- Smartphones
+- Tablets
+- Smart TV
+- Proyectores
+- Computadoras
+- Ropa femenina
+- Accesorios
+
+---
+
+##  Carrito de compras
+
+Sistema de carrito completamente funcional con JavaScript:
+
+### Funciones:
+✔ Agregar productos  
+✔ Ver productos agregados  
+✔ Contador de productos en tiempo real  
+✔ Eliminar productos  
+✔ Calcular total automáticamente  
+✔ Persistencia con **LocalStorage**
+
+---
+
+##  Formas de pago
+
+Métodos de pago visuales incluidos:
+
+- Tarjetas de crédito/débito
+- PayPal
+
+Botón:
+- **Pagar Ahora**
+
+Preparado para futura integración con:
+- Mercado Pago
+- Stripe
+- PayPal API
+
+---
+
+##  Formulario de contacto
+
+El usuario puede enviar:
+
+- Nombre
+- Correo electrónico
+- Mensaje
+
+Incluye validación básica en frontend.
+
+---
+
+### Toast Notifications
+Mensajes emergentes para:
+- Producto agregado
+- Formulario enviado
+- Acciones del usuario
+
+---
+
+##  Diseño UI/UX
+
+Características visuales:
+
+- Diseño premium ecommerce
+- Cards animadas
+- Hover effects
+- Responsive design
+- Grid adaptable
+- Sombras y bordes modernos
+
+Colores principales:
+
+- Violeta `#7c3aed`
+- Azul oscuro `#111827`
+- Fondo claro `#f4f6fb`
+
+---
+
+##  Tecnologías utilizadas
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript ES6
+
+### Librerías
+- Font Awesome Icons
+
+### Almacenamiento
+- Browser LocalStorage
+
+---
+
+##  Estructura del proyecto
+
+```bash
+Alex-Ecommerce/
+│
+├── index.html
+├── styles.css
+├── script.js
+│
+└── img/
+    ├── shopping.jpg
+    ├── celular.jpg
+    ├── auriculares.jpg
+    ├── wifi.jpg
+    ├── camara.jpg
+    ├── tablet.jpg
+    ├── pantallacurva.jpg
+    ├── proyector.jpg
+    ├── televisor.jpg
+    ├── computadora.jpg
+    ├── deportivo.jpg
+    ├── enterito.jpg
+    ├── jean.jpg
+    ├── remera.jpg
+    ├── pay.jpg
+    └── paypal.jpg
+```
+
+##  Responsive
+
+El proyecto está preparado para:
+
+- Desktop
+- Tablets
+- Móviles (pendiente optimización final del menú mobile)
+
+
+##  Mejoras futuras
+
+- Login / Registro
+- Backend con base de datos
+- Pasarela de pago real
+- Historial de compras
+- Filtros de productos
+- Buscador
+- Panel administrador
+
+
+##  Autor
+
+**Cristina Pintado**  
+Proyecto / Frontend Ecommerce  
+2026
